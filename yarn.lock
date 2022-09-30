@@ -668,9 +668,9 @@
   integrity sha512-1dVNHT76Uu5N3eJNTYcvxee+jzX4Z9lfciqRRHCU27ihbUcYi+iSc2iml5Ke1LXe1SyJCLA0+14Jh4tXJgOppA==
 
 "@hapi/hoek@8.x.x":
-  version "8.2.1"
-  resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-8.2.1.tgz#924af04cbb22e17359c620d2a9c946e63f58eb77"
-  integrity sha512-JPiBy+oSmsq3St7XlipfN5pNA6bDJ1kpa73PrK/zR29CVClDVqy04AanM/M/qx5bSF+I61DdCfAvRrujau+zRg==
+  version "8.5.1"
+  resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-8.5.1.tgz#fde96064ca446dec8c55a8c2f130957b070c6e06"
+  integrity sha512-yN7kbciD87WzLGc5539Tn0sApjyiGHAJgKvG9W8C7O+6c7qmoQMfVs0W4bX17eqz6C78QJqqFrtgdK5EWf6Qow==
 
 "@hapi/joi@^15.0.3":
   version "15.1.1"
@@ -2205,7 +2205,7 @@ escape-html@~1.0.3:
   resolved "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
   integrity sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
 
-escape-string-regexp@^1.0.5:
+escape-string-regexp@1.0.5, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
@@ -3128,7 +3128,7 @@ inquirer@^6.4.1:
     strip-ansi "^5.1.0"
     through "^2.3.6"
 
-invariant@^2.2.4:
+invariant@2.2.4, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
@@ -5332,6 +5332,14 @@ react-native-view@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/react-native-view/-/react-native-view-1.1.0.tgz#a77ac0b0160f658546297184f4a6f8bcf96cf778"
   integrity sha512-zslbrdcFWQ3sRVexuF5LYagYgRqOW/Xp4caFVrF8cuK8vI9GK0gZE4BHm3mhFCk5mi8Hd0mJB2u/+7F5j7rRqw==
+
+react-native-webview@^6.9.0:
+  version "6.11.1"
+  resolved "https://registry.yarnpkg.com/react-native-webview/-/react-native-webview-6.11.1.tgz#51fab0838ef9bdf3efd0d3f27147dddda5119f94"
+  integrity sha512-0OaNCEzdyywJZ70y6Z4fmmuAd2AHYq2AEByIr15z3YetpMXhm9lXUe2V/8BXQIZXeC9FJosj2DAKu48lpZ0nEg==
+  dependencies:
+    escape-string-regexp "1.0.5"
+    invariant "2.2.4"
 
 react-native@0.60.5:
   version "0.60.5"
